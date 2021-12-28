@@ -5,33 +5,8 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 
-
-
- /* ********************************************************************************************************************* */
- /* Pruebas de margenes*/
-/* ************************************************************************************************************************ */
- .Cab_02      { border: 0px solid black;}    /* Submenu debajo de navbar */
-
-  .Mod1       { border: 0px solid black;}   /* #E4E9DB */
-  .Mod2       { border: 0px solid black;}
-  .Mod3       { border: 0px solid black; }
-  .Mod4       { border: 0px solid black;}
-
-  .rowmod1    { border: 0px solid red; }
-  .rowmod2    { border: 0px solid red; }
-  .rowmod3    { border: 0px solid red;}
-  .rowmod4    { border: 0px solid red;}
-
-  .colmod11   { border: 0px solid red;} /*border-right-style: solid; border-color: navy; }*/
-  .colmod12   { border: 0px solid black; }
-  .colmod13   { border: 0px solid green; }
-
-  .colmod2    { border: 0px solid green; }
-  .colmod3    { border: 0px solid green;}
-  .colmod4    { border: 0px solid green;}
-
 /* ***************************************************************************************************************************
-reservas/header.blade.php  navbar - MENU
+navbar - MENU
 /* ********************************************************************************************************************* */
  
  /* boton hamburguesa */
@@ -83,33 +58,8 @@ reservas/header.blade.php  navbar - MENU
 
 
 /* ***************************************************************************************************************************
-reservas/home.blade.php
+
 /* *************************************************************************************************************************** */
-/* Imagen encima de otra */
-.modimg {
-  position: relative;
-  width: 100%;
-  background-size: cover;
-  margin-top: 10px;
-}  
-.quiero{
-  position: relative;
-  margin-top: -28%;
-  left: 0%;
-}
-
-/* texto interior EB Garamond */
-.modtext1{
-  font-family: 'EB Garamond', serif;
-  font-weight: 600;
-  font-size: 2em;
-}
-
-.modvacio{
-  font-family: 'EB Garamond', serif;
-  font-weight: 600;
-  font-size: 1em;
-}
 
 .boton1  {
   background-color: #174c8a;
@@ -117,7 +67,9 @@ reservas/home.blade.php
   width: 100%;
 }
 
+/* ***************************************************************************************************************************/
 /*SLIDER AUTOMATICO CON 4 IMAGENES*/
+/* ***************************************************************************************************************************/
 
 .slider         { border: 0px solid red; }
 .slider ul      { border: 0px solid blue;}
@@ -209,10 +161,6 @@ table {
       border: 0px;
   }
 
-
-
-
-
   ::-webkit-input-placeholder {
     color: rgb( 44, 46, 255 );
     font-family: Arial;
@@ -231,23 +179,6 @@ table {
     font-size: 13px;
     font-weight: bold;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* ************************************************************************************************************************ */
@@ -313,18 +244,6 @@ table {
 
 
 
-
-/******************************************************************************************************/
-/*  
-/******************************************************************************************************/
-
-
-
-
-
-/******************************************************************************************************/
-/*
-/******************************************************************************************************/
 
 
 

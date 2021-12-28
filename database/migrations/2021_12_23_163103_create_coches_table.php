@@ -15,7 +15,7 @@ class CreateCochesTable extends Migration
     {
         Schema::create('coches', function (Blueprint $table) {
             $table->id();
-            $table->bigInteger('id_propietario')->unsigned();
+            $table->bigInteger('id_propietario')->unsigned()->nullable();
             $table->string('marca',50);
             $table->string('modelo',25);
             $table->string('color',25);

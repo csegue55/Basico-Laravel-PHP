@@ -8,6 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 class Propietario extends Model
 {
     use HasFactory;
+    protected $guarded= ['satatus'];
 
     public function coches(){
         return $this->hasMany(Coche::class);
